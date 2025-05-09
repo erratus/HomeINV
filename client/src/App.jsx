@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 
-const API = 'https://homeinv-backend.onrender.com/api/goods';
+const API = 'https://homeinv-backend.onrender.com';
 
 function App() {
   const [goods, setGoods] = useState([]);
